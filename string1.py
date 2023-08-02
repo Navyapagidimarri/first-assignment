@@ -51,3 +51,14 @@
 #print(n)
 
 
+#membership checking ----Boolean values are printing
+#s="navya working in marolix"
+#print("navya" in s)
+
+#string sub string
+#s=input("enter string:")
+#s2=input("enter sub string:")
+#if s not in s2:
+ # print("yes")
+#else:
+ # print("not matching")
