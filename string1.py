@@ -62,3 +62,26 @@
  # print("yes")
 #else:
  # print("not matching")
+
+ #find
+#s="navya working in marolix"
+#print(s.find("a"))#it take 2nd a here
+#print(s.find("a",17,22))#if we want selected variable then we have to declare start and end index
+#print(len(s))#we are selecting reverse fun here
+#print(s.rfind("i"))
+
+#s="navya working in marolix"
+#print(s.count("a"))#here we can count the variiable printing time
+
+#comparing strings
+s="navya working in marolix"
+s2="harika working in marolix"
+if s>=s2:
+  print("s greaterthan s2")
+else:
+  print("s lessthan s2")#by ASCII values
+
+
+
+
+
