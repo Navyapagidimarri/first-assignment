@@ -15,7 +15,23 @@
 #print(i[:])
 
 #indexing
-i="am working in marolix company"
-print(i[10])
+#i="am working in marolix company"
+#print(i[10])
 
 
+#concatenaton
+#Example1
+#i="navya"
+#j=" working"
+#k=" marolix"
+#print(i+j+k)
+
+#repetation with space at ening we can get perfect output
+#i="navya "
+#print(i*4)
+
+
+#length of string
+s="navya working in marolix"
+len_string=len(s)
+print(len_string)
