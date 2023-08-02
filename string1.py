@@ -31,7 +31,23 @@
 #print(i*4)
 
 
-#length of string
-s="navya working in marolix"
-len_string=len(s)
-print(len_string)
+#length of string by inbuilt function len()
+#s="navya working in marolix"
+#len_string=len(s)
+#print(len_string)
+
+#lenghth of the string by while loop
+#i=0
+#while(i<(len(s))):
+ #   print(s[i],end="")
+  #  i=i+1
+
+
+#string reversal method
+#s="navya working in marolix"
+#n=""
+#for i in s:
+ #  n= i + n
+#print(n)
+
+
