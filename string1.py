@@ -82,6 +82,15 @@ else:
   print("s lessthan s2")#by ASCII values
 
 
+#replacing string 
+s="navya working on python"
+s1="java"
+s1=s.replace("python",s1)
+print(s1)
+
+
+
+
 
 
 
