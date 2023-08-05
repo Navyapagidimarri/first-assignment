@@ -88,6 +88,9 @@ s1="java"
 s1=s.replace("python",s1)
 print(s1)
 
+#splitting string
+s="navya the working on the python"
+print(s.split("the"))
 
 
 
