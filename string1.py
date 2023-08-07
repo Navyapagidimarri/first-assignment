@@ -95,5 +95,3 @@ print(s.split("the"))
 
 
 
-
-

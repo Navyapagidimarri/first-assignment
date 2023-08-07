@@ -1,3 +1,3 @@
-s=["navya","latha","lalitha","haritha","mamatha","vanitha","navya"]
-s.remove(navya)
-print(s)
+mylist = ["navya", "latha", "vaniitha", "kamala", "navya","navya"]
+mylist = list(dict.fromkeys(mylist))
+print(mylist)
