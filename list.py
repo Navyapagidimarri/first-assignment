@@ -32,5 +32,14 @@ l.remove("apple")
 del(l[2])
 print(l)
 
-#we can insert any item with insert method
-l=["apple","banana","mango","grapes","watermelon"]
+#we can insert any item in specified index with insert method
+l=["apple","cat","dog","elephant"]
+l.insert(1,"ball")
+print(l)
+
+#we can extend the list with tuple fun also
+l=["apple","ball","cat","dog","elephant"]
+s=("fish","gun","hen")
+l.extend(s)
+print(l)
+
