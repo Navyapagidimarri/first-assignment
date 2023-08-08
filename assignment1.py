@@ -69,6 +69,25 @@
 #   print("its not a square")
 
 
+#stars with patterns
+#n=5
+#for i in range(n):
+#for j in range(n):
+#   print('*',end='  ')
+#    #if we give space between semicolon is shows sqaure
+#   #i[0],j[0]--- i[1],j[1] --i[2],j[2] --i[3],j[3]-- i[4],j[4]-- i[5],j[5]
+#   # * * * * *
+
+#print()
+
+
+#vote 
+#age=int(input("Enter age to check eligabilty for vote or not:"))
+#if age>=18:
+#   print("Yes! Your eligable for voting")
+#else:
+#   print("no ,you are not eligable for voting")
+    
 
 
 
