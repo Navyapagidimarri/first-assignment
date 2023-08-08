@@ -125,7 +125,17 @@
 #print(l)
 
 
-#sort() method used to annage words alpahbetical order
+#sort() method used to arranage words alpahbetical order
 #l=['red', 'blue', 'yellow', 'black', 'green', 'white', 'grey']
 #l.sort()
 #print(l)
+
+#reverse() for print list in reverse order
+#l=['red', 'blue', 'yellow', 'black', 'green', 'white', 'grey']
+#l.reverse()
+#print(l)
+
+#count the items repetation
+l=['red', 'blue', 'yellow', 'black', 'green', 'white', 'grey','red']
+x=l.count('red')
+print(x)
