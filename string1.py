@@ -70,7 +70,9 @@
 #print(len(s))#we are selecting reverse fun here
 #print(s.rfind("i"))
 
-#s="navya working in marolix"
+#s="navya workin
+# 
+# g in marolix"
 #print(s.count("a"))#here we can count the variiable printing time
 
 
@@ -204,3 +206,10 @@
 #mylist = ["navya", "latha", "vaniitha", "kamala", "navya","navya"]
 #mylist = list(dict.fromkeys(mylist))
 #print(mylist)
+
+
+
+
+
+
+
