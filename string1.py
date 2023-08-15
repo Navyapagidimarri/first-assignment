@@ -70,9 +70,7 @@
 #print(len(s))#we are selecting reverse fun here
 #print(s.rfind("i"))
 
-#s="navya workin
-# 
-# g in marolix"
+#s="navya working in marolix"
 #print(s.count("a"))#here we can count the variiable printing time
 
 

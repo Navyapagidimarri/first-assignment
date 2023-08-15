@@ -1,9 +1,9 @@
 # create a table with while loop and for loop
-# l=int(input("enter table name"))
-# i=1
-# while(i<11):
-#     print(l,'X',i ,'=',l*i)
-#     i=i+1
+l=int(input("enter table name"))
+i=1
+while(i<11):
+    print(l,'X',i ,'=',l*i)
+    i=i+1
 
 
 # l=int(input("enter table name"))
@@ -24,6 +24,7 @@
 # l[4]=s
 # print(l)
 
+
 #methods with string
 # l=["navya","anusha","latha","seeta"]
 # s=l[0]
@@ -32,5 +33,18 @@
 # print(l)
 
 
-# check the element is in he list are there
-l=[10,20,30,40]
+#Python program to get a string made of the first 2 and last 2 characters of a given string. If the string length is less than 2, return the empty string instead
+# str_1=input("enter string:")
+# if len(str_1)<2:
+#     print("")
+# else:
+#   print (str_1[0:2] +str_1[-2:])
+
+#Python program to get a string from a given string where all occurrences of its first char have been changed to '$', except the first char itself.
+# def change_char(str1):
+#  char= str1[0]
+# str1 = str1.replace(char, '$')
+# str1 = char + str1[1:]
+# return str1
+
+# print(change_char(restart))
