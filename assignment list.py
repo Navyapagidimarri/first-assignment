@@ -6,12 +6,22 @@
 
 
 #sum of 2 lists
-# list_1=[1,2,3,4,5]
-# list_2=[6,7,8,9,10]
-# new_list=[]
-# for i in range(len(list_1)):
-#   new_list.append(list_1[i]+list_2[i])
-# print(new_list)
+# l1=eval(input("enter the size1:" ))
+# l2=eval(input("enter the size2:"))
+# new_list1=[]
+# new_list2=[]
+# sum_list=[]
+# for i in range(0,l1):
+#    element1=int(input("enter the element:"+str(i)+":"))
+#    new_list1.append(element1)
+# print(new_list1)
+# for i in range(0,l2):
+#   element2=int(input("enter the element:"+str(i)+":"))
+#   new_list2.append(element2)
+# print(new_list2)
+# for i in range(len(new_list2)):
+#   sum_list.append(new_list1[i]+new_list2[i])
+# print(sum_list)
 
 
 
