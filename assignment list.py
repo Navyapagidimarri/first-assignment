@@ -62,16 +62,17 @@
 
 #size of the list5
 
-l1=int(input("enter the size1:"))
-l2=int(input("enter the size2:"))
+l1=eval(input("enter the size1:" ))
+l2=eval(input("enter the size2:"))
 new_list1=[]
 new_list2=[]
 for i in range(0,l1):
-    element1=int(input("enter the elements:"+str(i)+":"))
-    element2=int(input("enter the elements:"+str(i)+":"))
-    new_list1.append(element1)
-    new_list2.append(element2)
+   element1=int(input("enter the element:"+str(i)+":"))
+   new_list1.append(element1)
 print(new_list1)
+for i in range(0,l2):
+  element2=int(input("enter the element:"+str(i)+":"))
+  new_list2.append(element2)
 print(new_list2)
 if len(new_list1)==len(new_list2):
     print("length are equal")
