@@ -52,19 +52,30 @@
 
 
 
-l1=eval(input("enter the size1:" ))
-l2=eval(input("enter the size2:"))
-new_list1=[]
-new_list2=[]
-sum_list=[]
+# l1=eval(input("enter the size1:" ))
+# l2=eval(input("enter the size2:"))
+# new_list1=[]
+# new_list2=[]
+# sum_list=[]
+# for i in range(0,l1):
+#    element1=int(input("enter the element:"+str(i)+":"))
+#    new_list1.append(element1)
+# print(new_list1)
+# for i in range(0,l2):
+#   element2=int(input("enter the element:"+str(i)+":"))
+#   new_list2.append(element2)
+# print(new_list2)
+# for i in range(len(new_list2)):
+#   sum_list.append(new_list1[i]+new_list2[i])
+# print(sum_list)
+
+
+l1=eval(input("enter the length of the list:"))
+new_1=[]
 for i in range(0,l1):
-   element1=int(input("enter the element:"+str(i)+":"))
-   new_list1.append(element1)
-print(new_list1)
-for i in range(0,l2):
-  element2=int(input("enter the element:"+str(i)+":"))
-  new_list2.append(element2)
-print(new_list2)
-for i in range(len(new_list2)):
-  sum_list.append(new_list1[i]+new_list2[i])
-print(sum_list)
+    element=int(input("enter number"+str(i)+":"))
+    if element%2!=0:
+      new_1.append(element)
+    print(new_1)
+
+

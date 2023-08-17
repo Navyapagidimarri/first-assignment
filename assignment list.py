@@ -26,26 +26,28 @@
 
 
 #find even number
-# l=eval(input("enter number"))
-# empty_list=[]
-# for i in l:
-#     if i%2==0:
-#         empty_list.append(i)
-# print(empty_list)
+# l1=eval(input("enter the length of the list:"))
+# new_1=[]
+# for i in range(0,l1):
+#     element=int(input("enter number"+str(i)+":"))
+#     if element%2==0:
+#       new_1.append(element)
+#     print(new_1)
 
 #find odd number
-# l=eval(input("enter number:"))
-# empty_list=[]
-# for i in l:
-#     if i%2 != 0:
-#         empty_list.append(i)
-# print(empty_list)
-
+l1=eval(input("enter the length of the list:"))
+new_1=[]
+for i in range(0,l1):
+    element=int(input("enter number"+str(i)+":"))
+    if element%2!=0:
+      new_1.append(element)
+    print(new_1)
 
 # #del element of given index
 # l=[10,"navya",12.41,True,9+9j]
 # del(l[0])#10 wiill be removed
 # print(l)
+
 
 
 #del element directly
@@ -54,10 +56,12 @@
 # print(l)
 
 
+
 #insert element at the specified index
 # l=[10,20,40,50,60,70]
 # l.insert(2,30)
 # print(l)
+
 
 
 #insert element at the end
