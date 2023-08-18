@@ -69,13 +69,15 @@
 #   sum_list.append(new_list1[i]+new_list2[i])
 # print(sum_list)
 
+#t=("marolix","tcs","zenpact")
+# l=["flipkart","mantra"]
+# y=tuple(l)
+# print(t+y)
 
-l1=eval(input("enter the length of the list:"))
-new_1=[]
-for i in range(0,l1):
-    element=int(input("enter number"+str(i)+":"))
-    if element%2!=0:
-      new_1.append(element)
-    print(new_1)
+# t=("marolix","tcs","zenpact")
+# for i in range(0,l):
+#   print(t)
 
 
+l=[i for i in range(0,10 )]
+print(l)

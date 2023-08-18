@@ -1,10 +1,10 @@
 #declaration of tuple
-i=(10,20,30,40)
-print(i)
+# i=(10,20,30,40)
+# print(i)
 
 #another form declaration of tuple
-i=10,20,30,40
-print(type(i))
+# i=10,20,30,40
+# print(type(i))
 
 #changing elements in tuple method
 # i=(10,20,30,40)
@@ -42,9 +42,20 @@ print(type(i))
 # print(min(my_tuple1))
 # print(max(my_tuple1))
 
+
+
 #unpacking and packing
-colors=("blue","green","red")
-(cloud,grapes,apple)=colors
-print(cloud)
-print(grapes)
-print(apple)
+# colors=("blue","green","red")
+# (cloud,grapes,apple)=colors
+# print(cloud)
+# print(grapes)
+# print(apple)
+
+
+
+# l=[i for i in range(0,10 )]
+# print(l)
+
+
+t=(i for i in range(0,10 ))
+print(t)
