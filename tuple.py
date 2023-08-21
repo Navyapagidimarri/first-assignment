@@ -2,9 +2,11 @@
 # i=(10,20,30,40)
 # print(i)
 
+
 #another form declaration of tuple
 # i=10,20,30,40
 # print(type(i))
+
 
 #changing elements in tuple method
 # i=(10,20,30,40)
@@ -16,6 +18,7 @@
 # k=tuple(i)
 # print(k)
 # print(k)
+
 
 
 #functions of  tuple
@@ -53,9 +56,33 @@
 
 
 
+#here we cab see one employee having hdfc remianing all are idfc bank so we can do star here
+# emp_list=("navya","anusha","madhu","rishika")
+# (hdfc,*idfc)=emp_list
+# print(idfc)
+
+
+
+
+
+
+
+
 # l=[i for i in range(0,10 )]
 # print(l)
 
 
-t=(i for i in range(0,10 ))
-print(t)
+#it will print  tuple element format we cant write single code here like list
+# for i in range(0,10):
+#     print(i,end=" ")
+
+
+# a=[1,2,3,4,5,6]
+# b=tuple(a)
+# print(b)
+#okkkk
+
+
+
+
+

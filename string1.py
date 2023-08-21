@@ -14,9 +14,12 @@
 #print(i[4:10:-1])
 #print(i[:])
 
+
 #indexing
 #i="am working in marolix company"
 #print(i[10])
+
+
 
 
 #concatenaton
@@ -26,15 +29,20 @@
 #k=" marolix"
 #print(i+j+k)
 
+
 #repetation with space at ening we can get perfect output
 #i="navya "
 #print(i*4)
+
+
 
 
 #length of string by inbuilt function len()
 #s="navya working in marolix"
 #len_string=len(s)
 #print(len_string)
+
+
 
 #lenghth of the string by while loop
 #i=0
@@ -55,13 +63,17 @@
 #s="navya working in marolix"
 #print("navya" in s)
 
+
+
 #string sub string
-#s=input("enter string:")
-#s2=input("enter sub string:")
-#if s not in s2:
- # print("yes")
-#else:
- # print("not matching")
+# s=input("enter string:")
+# s2=input("enter sub string:")
+# if s not in s2:
+#  print("yes")
+# else:
+#  print("not matching")
+
+
 
  #find
 #s="navya working in marolix"
@@ -70,18 +82,18 @@
 #print(len(s))#we are selecting reverse fun here
 #print(s.rfind("i"))
 
+
 #s="navya working in marolix"
 #print(s.count("a"))#here we can count the variiable printing time
 
 
 
-
 #comparing strings
-#s="navya working in marolix"
-#s2="harika working in marolix"
-#if s>=s2:
-# print("s greaterthan s2")
-#else:
+# s="navya working in marolix"
+# s2="harika working in marolix"
+# if s>=s2:
+#  print("s greaterthan s2")
+# else:
 #  print("s lessthan s2")#by ASCII values
 
 
@@ -92,15 +104,17 @@
 #s1=s.replace("python",s1)
 #print(s1)
 
+
 #splitting string
-#s="navya the working on the python"
-#print(s.split("the"))
+s="navya the working on the python"
+print(s.split("the"))
 
 
 #remove item
 #julymem=["navya","anusha","rushika","gayatri","bagwan","srinivas"]
 #print(julymem.remove("navya"))
 #print(julymem)
+
 
 #polindrome
 #s=input("enter polindrome:")
@@ -112,6 +126,7 @@
 
 #vowel consonant
 #s1=input("enter single alphabet:")
+
 
 #if s1 in ("a","e","i","o","u","A","E","I","O","U"):
 #   print("the entered alphabet is vowel")
