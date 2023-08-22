@@ -5,13 +5,6 @@
 #dont follow the slicing and indexing
 
 
-# s=set()  # we have to do this 
-# s.add("a")
-# s.add("b")
-# s.add("c")
-# s.add("d")
-# print(s)
-
 
 # s={1,2,3,4}
 # l=[5,6,7,8]
@@ -19,9 +12,16 @@
 # print(s)
 
 
-# s={1,2,3,4}
-# l=s.copy()
-# print(l)
+
+#here one project about student names:adding
+# s=eval(input("enter string values"))
+# s1=set()
+# for x in range(0,s):
+#     y=input("elements:"+str(x)+":")
+#     s1.add(y)
+# print(s1)
+
+
 
 
 # s={1,2,3,4}
@@ -34,9 +34,55 @@
 # s3=s1.symmetric_difference(s2)
 # print(s3)
 
-s1={1,2,3,4}
-s2={3,4,5,6}
-s3=s1.difference(s2)
-print(s3)
+
+
+# s1={1,2,3,4}
+# s2={3,4,5,6}
+# s3=s1.difference(s2)
+# print(s3)
+
+#intersection
+# s1=eval(input("enter elements range"))
+# s2=eval(input("eenter elements range"))
+# s3=set()
+# s4=set()
+# for x in range(0,s1):
+#     item=input("enter elements:"+str(x)+":")
+#     s3.add(item)
+# for y in range(0,s2):
+#     item=input("enter elements:"+str(y)+":")
+#     s4.add(item)
+# s5=s3.intersection(s4)
+# print(s5)
+
+
+# symmetric
+# s1=eval(input("enter elements range"))
+# s2=eval(input("eenter elements range"))
+# s3=set()
+# s4=set()
+# for x in range(0,s1):
+#   item=input("enter elements:"+str(x)+":")
+#   s3.add(item)
+# for y in range(0,s2):
+#     item=input("enter elements:"+str(y)+":")
+#     s4.add(item)
+# s5=s3.symmetric_difference(s4)
+# print(s5)
+
+
+
+s1=eval(input("enter elements range"))
+s2=eval(input("eenter elements range"))
+s3=set()
+s4=set()
+for x in range(0,s1):
+  item=input("enter elements:"+str(x)+":")
+  s3.add(item)
+for y in range(0,s2):
+    item=input("enter elements:"+str(y)+":")
+    s4.add(item)
+s5=s3.difference(s4)
+print(s5)
 
 
