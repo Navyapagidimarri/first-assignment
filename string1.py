@@ -106,8 +106,8 @@
 
 
 #splitting string
-s="navya the working on the python"
-print(s.split("the"))
+# s="navya the working on the python"
+# print(s.split("the"))
 
 
 #remove item

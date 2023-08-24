@@ -89,13 +89,15 @@
 
 
 #salary counting
-salary=eval(input("enter total salary"))
-perday_caluclation=eval(input("perday count"))
-total_leaves=eval(input("enter days of leave"))
-credit_salary=[]
-credit_salary=(salary-perday_caluclation*total_leaves)
-print(credit_salary)
+# salary=eval(input("enter total salary"))
+# perday_caluclation=eval(input("perday count"))
+# total_leaves=eval(input("enter days of leave"))
+# credit_salary=[]
+# credit_salary=(salary-perday_caluclation*total_leaves)
+# print(credit_salary)
    
+
+
 
 
 
