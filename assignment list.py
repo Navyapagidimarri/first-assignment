@@ -1,17 +1,17 @@
 #write a prog to merge two lists
-l=eval(input("enter elements:"))
-t=eval(input("enter elements2:"))
-new_list=[]
-new_list2=[]
-for i in range(0,l):
- n=int(input("enter the element:"+str(i)+":"))
- new_list.append(n)
-print(new_list)
-for j in range(0,t):
-  n2=int(input("enter number"+str(j)+":"))
-  new_list2.append(n)
-new_list.extend(new_list2)
-print(new_list)
+# l=eval(input("enter elements:"))
+# t=eval(input("enter elements2:"))
+# new_list=[]
+# new_list2=[]
+# for i in range(0,l):
+#  n=int(input("enter the element:"+str(i)+":"))
+#  new_list.append(n)
+# print(new_list)
+# for j in range(0,t):
+#   n2=int(input("enter number"+str(j)+":"))
+#   new_list2.append(n)
+# new_list.extend(new_list2)
+# print(new_list)
 
 
 #sum of 2 lists

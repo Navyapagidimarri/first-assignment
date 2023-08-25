@@ -40,13 +40,18 @@
 # print(d["girls"]["smitha"])
 
 
-d={"boys":{"abhiram":"4thclass",
-               "bhargavram":"nursery"},
-   "girls":{"navya":"inter","smitha":"degree"}
-   }
-print(d.pop(0))
-print(d)
+
+
+# d={"boys":{"abhiram":"4thclass",
+#                "bhargavram":"nursery"},
+#    "girls":{"navya":"inter","smitha":"degree"}
+#    }
+# print(d)
 #print(d.popitem())#it returns lat inserted index
 #print(d)
+
+
+
+
 
 
