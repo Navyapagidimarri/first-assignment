@@ -1,4 +1,4 @@
-#.Write a Python script to add a key to a dictionary.
+#1.Write a Python script to add a key to a dictionary.
 # d={}
 # for k in range(0,5):
 #     key=input("enter keys:")
@@ -110,8 +110,8 @@
 
 #10.Write a Python program to create a dictionary from a string.
 #Note: Track the count of the letters from the string.
-# str = "marolix technology"
-# dict ={}
-# for s in str:
-#    dict[s]=dict.get(s,0)+1
-# print(dict)
+str = "marolix technology"
+dict ={}
+for s in str:
+   dict[s]=s.count(s)
+print(dict)
