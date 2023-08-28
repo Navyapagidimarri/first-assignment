@@ -113,5 +113,5 @@
 str = "marolix technology"
 dict ={}
 for s in str:
-   dict[s]=s.count(s)
+   dict[s]=str.count(s)
 print(dict)
