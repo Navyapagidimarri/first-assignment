@@ -82,8 +82,26 @@
 # print(b)
 #okkkk
 
+#print prime  numbers
+# def prime_numbers(n):
+#     for i in range(2, n+1):
+#         count = 0
+#         for j in range(2, i):
+#             if i % j == 0:
+#                 count += 1
+#         if count == 0:
+#             print(i, "is a prime number")
+
+# prime_numbers(10)
 
 
+
+#def for length of varibales
+def python_variables(*n):
+    for i in n:
+        print(i)
+python_variables(1, 2, 3)
+python_variables('apple', 'banana', 'cherry')
 
 
 

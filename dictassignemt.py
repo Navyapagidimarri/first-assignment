@@ -108,10 +108,11 @@
 # print(sum(d.values()))
 
 
+
 #10.Write a Python program to create a dictionary from a string.
 #Note: Track the count of the letters from the string.
-str = "marolix technology"
-dict ={}
-for s in str:
-   dict[s]=str.count(s)
-print(dict)
+# str = "marolix technology"
+# dict ={}
+# for s in str:
+#    dict[s]=str.count(s)
+# print(dict)

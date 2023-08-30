@@ -53,23 +53,62 @@
 
 
 
+# def multiply(a,b):
+#     print(a*b)
+# multiply(2,3)
 
-#count 
-def countelements(s):
-  digitC=0
-alphaC=0
-specialC=0
-for i in s:
-  if i.isdigit():
-    digitC=digitC+1
-  elif i.isalpha(): 
-   alphaC=alphaC+1
-  else:
-   specialC=specialC+1
-print("number of special charactors",specialC)
-print("number of digit",digitC)
-print("number of digit",alphaC)
-countelements("navya0112233@!")
+
+
+
+#it counts the values
+# 'def counting(s):
+#     print(s.count("l"))
+# counting("all is well")
+
+
+ 
+#printing a table
+# def printing_table(num):
+#   for i in range(0,11):
+#     i=i+1
+#     print(num,"X", i ,"=",num*i )
+# printing_table(6)
+
+
+
+# def string_multiply(n):
+#   for x in n:
+#    print(x*5)
+# string_multiply("navya")
+
+
+# def replacingstring(s):
+#   s2=s.replace(" ","the")
+# replacingstring(s="am working in marolix")
+
+
+
+
+def python_def_prime(n):
+l=[]
+count=0
+for i in range(2,n+1):
+ for j in range(2,n+1):
+        if i%j==0:
+            count=count+1
+if count==1:
+  print(i,"is prime number")
+l.append()
+python_def_prime(10):
+
+ 
+
+
+
+
+
+
+
 
 
 
