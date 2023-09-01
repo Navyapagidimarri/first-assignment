@@ -90,7 +90,7 @@
 
 
 def python_def_prime(n):
-l=[]
+  l=[]
 count=0
 for i in range(2,n+1):
  for j in range(2,n+1):
@@ -99,7 +99,7 @@ for i in range(2,n+1):
 if count==1:
   print(i,"is prime number")
 l.append()
-python_def_prime(10):
+python_def_prime(10)
 
  
 
