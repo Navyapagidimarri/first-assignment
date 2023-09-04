@@ -89,18 +89,17 @@
 
 
 
-def python_def_prime(n):
-  l=[]
-count=0
-for i in range(2,n+1):
- for j in range(2,n+1):
-        if i%j==0:
-            count=count+1
-if count==1:
-  print(i,"is prime number")
-l.append()
-python_def_prime(10)
+# def python_def_prime(n):
+#   count=0
+#   for i in range(2,n+1):
+#     for j in range(2,n+1):
+#         if i%j==0:
+#             count=count+1
+#     if count==1:
+#      print(i,"is prime number")
+# python_def_prime(10)
 
+ 
  
 
 

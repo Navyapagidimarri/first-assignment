@@ -73,18 +73,18 @@
 
 
 #difference
-# s1=eval(input("enter elements range"))
-# s2=eval(input("eenter elements range"))
-# s3=set()
-# s4=set()
-# for x in range(0,s1):
-#   item=input("enter elements:"+str(x)+":")
-#   s3.add(item)
-# for y in range(0,s2):
-#     item=input("enter elements:"+str(y)+":")
-#     s4.add(item)
-# s5=s3.difference(s4)
-# print(s5)
+s1=eval(input("enter elements range"))
+s2=eval(input("eenter elements range"))
+s3=set()
+s4=set()
+for x in range(0,s1):
+  item=input("enter elements:"+str(x)+":")
+  s3.add(item)
+for y in range(0,s2):
+    item=input("enter elements:"+str(y)+":")
+    s4.add(item)
+s5=s3.difference(s4)
+print(s5)
 
 
 

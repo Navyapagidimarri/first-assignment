@@ -12,6 +12,8 @@
 # count_upper_lower("Am Working In MArolix")
 
 
+
+
 #2.Write a Python function that takes a list and returns a new list with distinct elements from the first list.
 # def distinct_elements(input_list):
 #     new_set = set()
