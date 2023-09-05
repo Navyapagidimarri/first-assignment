@@ -27,42 +27,43 @@
 
 
 
-#3.write a function to find sum of given values, pass values has variable number of arguments to function.
-# def calculate_sum(*args):
-#     total = 0
-#     for num in args:
-#         total += num
+#3.write a python function to check string is panagram or not
+# def pangram(string):
+#     string = string.lower()
+#     new_set = set()
+#     for char in string:
+#         if char.isalpha():
+#             new_set.add(char)
+#     return len(new_set) == 26
+# input_str = "The quick brown fox jumps over the lazy dog"
+# result = pangram(input_str)
+# if result:
+#     print("The input string is a pangram.")
+# else:
+#     print("The input string is not a pangram.")
+
+
+#write a python code to sum all the elements
+# def sum_function():
+#     l=[8,2,3,0,7]
+#     sum(l)
+#     result=sum(l)
+#     print(result)
+# sum_function()
+
+
+#write a function to define sum of arguments ,pass the values to the aruguments
+# 'def sum_values(*args):
+#     total = sum(args)
 #     return total
-# result = calculate_sum(1, 2, 3, 4, 5)
+# result = sum_values(1,3,4,5,6)
 # print(result) 
+'
 
 
 
-#4.Write a Python function to sum all the numbers in a list.
-# def sum_numbers(n):
-#     total_sum = sum(n)
-#     return total_sum
-# numbers = [1, 2, 3, 4, 5]
-# total = sum_numbers(numbers)
-# print("Sum of numbers:", total)
 
-#write a python function to check string is panagram or not
-def pangram(string):
-    string = string.lower()
-    new_set = set()
-    for char in string:
-        if char.isalpha():
-            new_set.add(char)
-    return len(new_set) == 26
-input_str = "The quick brown fox jumps over the lazy dog"
-result = pangram(input_str)
-if result:
-    print("The input string is a pangram.")
-else:
-    print("The input string is not a pangram.")
-
-
-#5.Write a Python function to create and print a list where the values are the squares of numbers between 1 and 10 (both included).
+#4.Write a Python function to create and print a list where the values are the squares of numbers between 1 and 10 (both included).
 # def print_squares():
 #  squares_list = []
 #  for number in range(1, 11):
