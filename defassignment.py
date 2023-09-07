@@ -27,6 +27,8 @@
 
 
 
+
+
 #3.write a python function to check string is panagram or not
 # def pangram(string):
 #     string = string.lower()
@@ -43,6 +45,7 @@
 #     print("The input string is not a pangram.")
 
 
+
 #write a python code to sum all the elements
 # def sum_function():
 #     l=[8,2,3,0,7]
@@ -52,13 +55,14 @@
 # sum_function()
 
 
+
 #write a function to define sum of arguments ,pass the values to the aruguments
-# 'def sum_values(*args):
+# def sum_values(*args):
 #     total = sum(args)
 #     return total
 # result = sum_values(1,3,4,5,6)
 # print(result) 
-'
+
 
 
 
@@ -71,5 +75,7 @@
 #         squares_list.append(square)
 #         print(squares_list)
 # print_squares()
+
+
 
 

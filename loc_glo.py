@@ -69,12 +69,20 @@
 # global_exmple2()
 
 
-def sum_function():
-    l=[8,2,3,0,7]
-    sum(l)
-    result=sum(l)
-    print(result)
-sum_function()
+
+# def sum_function():
+#     l=[8,2,3,0,7]
+#     sum(l)
+#     result=sum(l)
+#     print(result)
+# sum_function()
+
+
+
+#lambda function with single expression
+# x = lambda a, b : a * b
+# print(x(5, 6))
+
 
 
 
