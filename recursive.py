@@ -23,14 +23,13 @@
 
 
 #2.write a fabonacii series
-# def febonaci_series(n):
-#     l=[]
-#     if n==0 or n==1:
-#         return 1
-#     else:
-#          return febonaci_series(n-1)+febonaci_series(n-2)
-#          answer=febonaci_series(10)
-# print(answer)
+def febonaci_series(n):
+    if n==0 or n==1:
+        return 1
+    else:
+         return febonaci_series(n-1)+febonaci_series(n-2)
+answer=febonaci_series(10)
+print(answer)
 
 
 
@@ -40,4 +39,4 @@
 #         print("* " * n)
 #         pattern_recursion(n - 1)
 
-# pattern_recursion(5)
+# pattern_recursion(5)'
