@@ -23,13 +23,13 @@
 
 
 #2.write a fabonacii series
-def febonaci_series(n):
-    if n==0 or n==1:
-        return 1
-    else:
-         return febonaci_series(n-1)+febonaci_series(n-2)
-answer=febonaci_series(10)
-print(answer)
+# def febonaci_series(n):
+#     if n==0 or n==1:
+#         return 1
+#     else:
+#          return febonaci_series(n-1)+febonaci_series(n-2)
+# answer=febonaci_series(10)
+# print(answer)
 
 
 
@@ -39,4 +39,44 @@ print(answer)
 #         print("* " * n)
 #         pattern_recursion(n - 1)
 
-# pattern_recursion(5)'
+# pattern_recursion(5)
+
+#filter capitals
+# def capital_letter(str):
+#     return str.isupper()
+# s = "Navya WORKING in Marolix"
+# filtered_capitals = filter(capital_letter, s)
+# output = ''.join(filtered_capitals)
+# print(output)
+
+
+
+# '#divisable by 4
+# def divisible(n):
+#     s=eval(input("enter elements:"))
+#     l=[]
+#     for i in range(0,s):
+#         if i%4==0:
+#           element=input("enter elemnetnt:",+str(i),":")
+#           l.append(element)
+#           print(l)
+#         else:
+#          return none
+# # divisible = filter(divisible,i)
+# # print (list(divisible))'
+
+
+
+#calulating power 
+def power(base, exponent):
+    if exponent == 0:
+        return 1
+    else:
+        return base * power(base, exponent - 1)
+base=2
+exponent=5
+output=power(base,exponent)
+print(output)
+
+
+
