@@ -53,14 +53,4 @@ def register():
           input_password=input("password")
           d[input_user]=input_password
           print(d)
-def new_login():
-          for j in range(0,2):
-           check_enter_username=input("enter new username")
-           check_enter_password=input("enter new password")
-            d[check_enter_username]=check_enter_password
-           if check_enter_username in keys():
-                print("username is already exists")
-           else:
-             d.update({check_enter_username:check_enter_password})
-             print(d)
 register()
