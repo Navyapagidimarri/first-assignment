@@ -28,7 +28,6 @@
 # print(result)
 
 
-
-l=["1","2","3","4"]
-result=list(map(lambda s: int(s),l))
-print(result)
+# l=["1","2","3","4"]
+# result=list(map(lambda s: int(s),l))
+# print(result)

@@ -53,8 +53,4 @@ def register():
           input_password=input("password")
           d[input_user]=input_password
           print(d)
-          if input_user in keys():
-               print("username is already exists")
-          else:
-               pass
 register()
