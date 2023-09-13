@@ -20,12 +20,3 @@
 # result = lambda_function3()
 # print(result)
 
-
-
-def lambda_function4():
-    l = []
-    input_string = input("Enter elements separated by spaces: ")
-    elements = input_string.split()  
-    l.extend(filter(lambda i: int(i) % 4 == 0, elements))
-    return l
-result = lambda_function4()
