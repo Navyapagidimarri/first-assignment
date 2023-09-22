@@ -33,30 +33,47 @@
 
 
 
+# def employee_details():
+#     d = {}  # Dictionary to store employee details by domain
+#     employ_entry = int(input("Enter the number of employees: "))
+#     for i in range(employ_entry):
+#         emp_name = input("Enter employee name: ")
+#         emp_domain = input("Enter domain: ")
+#         emp_id = input("Enter employee id: ")
+#         emp_email = input("Enter email id: ")
+#         if emp_domain in d:
+#             d[emp_domain].append((emp_name, emp_id, emp_email))
+#         else:
+#             d[emp_domain] = [(emp_name, emp_id, emp_email)]
+#         print(d)
+#     print("Employee details:")
+#     print("*****************")
+#     for domain, employees in d.items():
+#         print("Domain:", domain)
+#         print("Employee Details:")
+#         for emp in employees:
+#             emp_name, emp_id, emp_email = emp
+#             print("Employee Name:", emp_name)
+#             print("Employee ID:", emp_id)
+#             print("Employee Email:", emp_email)
+
+# employee_details()
+
+
+
 def employee_details():
-    d = {}  # Dictionary to store employee details by domain
+    d = {}  
     employ_entry = int(input("Enter the number of employees: "))
     for i in range(employ_entry):
         emp_name = input("Enter employee name: ")
         emp_domain = input("Enter domain: ")
         emp_id = input("Enter employee id: ")
         emp_email = input("Enter email id: ")
-        if emp_domain in d:
-            d[emp_domain].append((emp_name, emp_id, emp_email))
-        else:
-            d[emp_domain] = [(emp_name, emp_id, emp_email)]
-        print(d)
-    print("Employee details:")
-    print("*****************")
-    for domain, employees in d.items():
-        print("Domain:", domain)
-        print("Employee Details:")
-        for emp in employees:
-            emp_name, emp_id, emp_email = emp
-            print("Employee Name:", emp_name)
-            print("Employee ID:", emp_id)
-            print("Employee Email:", emp_email)
-
+        d[emp_name] = [emp_name, emp_id, emp_email,emp_domain]
+    particular_domain=input("enter_perticular_domain: ")
+    for i in d:
+        if particular_domain in d[i]:
+            print(d[i])
 employee_details()
 
 
