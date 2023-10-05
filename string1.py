@@ -8,7 +8,7 @@
 
 #here one thing is to confirm here is we can write a string with '' also
 
-#slicing
+#slicing -we can cut slice means we can cut the we can get wanted data 
 #i="am working in marolix company"
 #print(i[:15])
 #print(i[4:10:-1])
@@ -21,8 +21,7 @@
 
 
 
-
-#concatenaton
+#concatenaton adding the string
 #Example1
 #i="navya"
 #j=" working"
@@ -30,10 +29,10 @@
 #print(i+j+k)
 
 
+
 #repetation with space at ening we can get perfect output
 #i="navya "
 #print(i*4)
-
 
 
 
@@ -51,17 +50,19 @@
   #  i=i+1
 
 
+
 #string reversal method
-#s="navya working in marolix"
-#n=""
-#for i in s:
- #  n= i + n
-#print(n)
+# s="navya working in marolix"
+# n=""
+# for i in s:
+#   n= i + n
+# print(n)
+
 
 
 #membership checking ----Boolean values are printing
-#s="navya working in marolix"
-#print("navya" in s)
+# s="navya working in marolix"
+# print("navya" in s)
 
 
 
@@ -99,10 +100,10 @@
 
 
 #replacing string 
-#s="navya working on python"
-#s1="java"
-#s1=s.replace("python",s1)
-#print(s1)
+s="navya working on python"
+s1="java"
+s1=s.replace("python",s1)
+print(s1)
 
 
 #splitting string
@@ -124,14 +125,17 @@
 #  print("No it is polindrome")
 
 
+
 #vowel consonant
 #s1=input("enter single alphabet:")
+
 
 
 #if s1 in ("a","e","i","o","u","A","E","I","O","U"):
 #   print("the entered alphabet is vowel")
 #else:
 #   print("the entered alphabet is consonant")
+
 
 
 #s1=input("enter string1:")
@@ -149,16 +153,16 @@
 
 
 #sort the elements
-#s=input("input alpahabets:")
-#alphabets=[]
-#digits=[]
-#for k in s:
+# s=input("input alpahabets:")
+# alphabets=[]
+# digits=[]
+# for k in s:
 #   if s.isalpha():
 #    alphabets.append(k)
 #   else:
 #       digits.append(k)
-#output=''.join(sorted(alphabets)+sorted(digits))
-#print(output)
+# output=''.join(sorted(alphabets)+sorted(digits))
+# print(output)
 
 
 
@@ -189,12 +193,12 @@
 
 
 #sum of integers
-str1 = input('Enter a string: ')
-sum=0
-for i in str1:
- if i.isdigit(): 
-      sum=sum+int(i)
-print("sum=",sum)
+# str1 = input('Enter a string: ')
+# sum=0
+# for i in str1:
+#  if i.isdigit(): 
+#       sum=sum+int(i)
+# print("sum=",sum)
 
 
 
@@ -218,9 +222,9 @@ print("sum=",sum)
 
 
 #repeated remove
-#mylist = ["navya", "latha", "vaniitha", "kamala", "navya","navya"]
-#mylist = list(dict.fromkeys(mylist))
-#print(mylist)
+# mylist = ["navya", "latha", "vaniitha", "kamala", "navya","navya"]
+# mylist = list(dict.fromkeys(mylist))
+# print(mylist)
 
 
 

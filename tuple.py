@@ -60,7 +60,7 @@
 # emp_list=("navya","anusha","madhu","rishika")
 # (hdfc,*idfc)=emp_list
 # print(idfc)
-
+# print(hdfc)
 
 
 
@@ -97,11 +97,11 @@
 
 
 #def for length of varibales
-def python_variables(*n):
-    for i in n:
-        print(i)
-python_variables(1, 2, 3)
-python_variables('apple', 'banana', 'cherry')
+# def python_variables(*n):
+#     for i in n:
+#         print(i)
+# python_variables(1, 2, 3)
+# python_variables('apple', 'banana', 'cherry')
 
 
 

@@ -67,6 +67,7 @@ def register():
             d.update({new_input_user:new_input_confirm_password})
         d[new_input_user]=new_input_confirm_password
         print(d)
+        
         print("all data registerrd successfully")
 register()
 def login():

@@ -82,3 +82,13 @@
 
 
 
+def arm_strong(n):
+    find_length=len(str(n)) 
+    find_number=0
+    for i in str(n):
+        find_number=find_number+(int(i)**find_length)
+        if n==find_number:
+            print("this is the armstrong number")
+        else:
+            print("this is not an armstrong number")
+arm_strong(153)
