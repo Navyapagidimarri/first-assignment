@@ -11,7 +11,8 @@
 # print(int(b))
 
 
-a=input("enter rows:")
+a=int(input("enter rows:"))
 for i in range(a):
     for j in range(i):
-        print(* ,end=" ")
+        print( "*",end="" )
+    print()

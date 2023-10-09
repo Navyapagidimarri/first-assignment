@@ -59,6 +59,7 @@
 
 # employee_details()
 
+
 def employee_details():
     d = {}
     employ_entry = int(input("Enter the number of employees: "))
