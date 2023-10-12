@@ -94,3 +94,6 @@ e1.id()#class level comapny tech mahendra declared - tech mahendra
 e1.place()#static level company name dsiplayed kclink
 print(e1.__dict__)
 print(Employee.__dict__)
+
+
+
