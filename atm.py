@@ -5,11 +5,10 @@ class Banking:
 
     def functions(self):
         while True:
-            print("\nOptions:")
             print("pin generation-1")
             print("deposit-2")
             print("withdraw-3")
-            print("balance-enquiry")
+            print("balance-enquiry-4")
             print("exit-0")
             user_choice = input("Enter your selected process: (1-4)")
 
@@ -48,11 +47,14 @@ class Banking:
 
     def withdraw_money(self):
         withdraw_amount = int(input("Enter the amount to withdraw: "))
-        if self.balance >= withdraw_amount:
+        enter_pin=int(input("enter pin"))
+        if enter_pin==self.pin:
+         if self.balance >= withdraw_amount:
             self.balance -= withdraw_amount
             print("Please collect the amount.")
-        else:
+         else:
             print("Insufficient funds")
+
 
 bank = Banking(1000)
 print("Welcome to Marolix Banking! Thanks for choosing us.")
