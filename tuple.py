@@ -70,13 +70,9 @@
 
 # l=[i for i in range(0,10 )]
 # print(l)
-
-
 #it will print  tuple element format we cant write single code here like list
 # for i in range(0,10):
 #     print(i,end=" ")
-
-
 # a=[1,2,3,4,5,6]
 # b=tuple(a)
 # print(b)

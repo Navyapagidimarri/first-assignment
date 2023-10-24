@@ -35,6 +35,7 @@
 # c1=smartTv(80000,"5000mh")
 # c1.Tv()
 
+
 #multilevel programming for principal to teachers range
 # class principal:
 #       def orderto_teachers(self):
@@ -49,6 +50,7 @@
 # o1.orderto_teachers()
 # o1.classteacher()
 # o1.responce()
+
 
 #multiple Programming for principal techer to the parents
 class principal:

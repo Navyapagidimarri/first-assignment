@@ -4,9 +4,9 @@
 # print(result)#here we can get location of functin
 
 
-# s="am working in marolix"
-# result=tuple(map(lambda s:list(s),s))
-# print(result)
+s="am working in marolix"
+result=tuple(map(lambda s:list(s),s))
+print(result)
 
 
 

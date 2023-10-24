@@ -12,6 +12,7 @@
 # print(power(10))
 
 
+
 # def lambda_function3():
 #   l=[10,20,30,40,50]
 #   k=[]
