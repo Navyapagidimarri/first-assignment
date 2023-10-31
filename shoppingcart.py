@@ -44,6 +44,7 @@ class SamsungCart:
         return total_bill
 
 
+
 cart = SamsungCart()
 while True:
     print("\nMenu:")

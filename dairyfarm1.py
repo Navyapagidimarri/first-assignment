@@ -28,8 +28,6 @@ class expenditure(income):
         expenditure=self.dhana + self.salaries
         final_amount=self.monthlyincome - expenditure
         print(final_amount)
-
-
 c=expenditure("shanmukh dairy farm")
 c.singlecustomer()
 c.bulkcutomer()
