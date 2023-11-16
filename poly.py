@@ -42,6 +42,7 @@
 
 
 
+
 #method overloading
 # class main:
 #     def m1(self):
@@ -50,6 +51,7 @@
 #         print("second method")
 # m=main()
 # m.m1()
+
 
 
 
@@ -63,15 +65,17 @@
 
 
 
+
 #constructor overriding
-class c1:
-    def method1(self):
-        print("its is a first class")
-class c2(c1):
-    def method1(self):
-        print("its a second method")
-c=c2()
-c.method1()
+# class c1:
+#     def method1(self):
+#         print("its is a first class")
+# class c2(c1):
+#     def method1(self):
+#         print("its a second method")
+# c=c2()
+# c.method1()
+
 
 
 

@@ -80,14 +80,15 @@
 
 
 #7.Write a Python program to combine two dictionary by adding values for common keys.
-# d1 = {'a': 100, 'b': 200, 'c':300}
-# d2 = {'a': 300, 'b': 200, 'd':400}
-# for key ,value in d1.items():
-#         if key in d2:
-#             d2[key]=d1[key]+d2[key]
-#         else:
-#             d2[key]=d1[key]
-# print(d2)
+
+d1 = {'a': 100, 'b': 200, 'c':300}
+d2 = {'a': 300, 'b': 200, 'd':400}
+for key ,value in d1.items():
+        if key in d2:
+            d2[key]=d1[key]+d2[key]
+        else:
+            d2[key]=d1[key]
+print(d2)
 
 #8.Write a Python script to merge two Python dictionaries.
 # d={}
@@ -107,6 +108,7 @@
 
 
 #9.Write a Python program to sum all the items in a dictionary.
+
 # d={"navya":20000,"kavitha":30000,"sunitha":40000}
 # print(sum(d.values()))
 

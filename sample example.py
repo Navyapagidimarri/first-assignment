@@ -82,13 +82,32 @@
 
 
 
-def arm_strong(n):
-    find_length=len(str(n)) 
-    find_number=0
-    for i in str(n):
-        find_number=find_number+(int(i)**find_length)
-        if n==find_number:
-            print("this is the armstrong number")
-        else:
-            print("this is not an armstrong number")
-arm_strong(153)
+# def arm_strong(n):
+# #     find_length=len(str(n)) 
+# #     find_number=0
+# #     for i in str(n):
+# #         find_number=find_number+(int(i)**find_length)
+# #         if n==find_number:
+# #             print("this is the armstrong number")
+# #         else:
+# #             print("this is not an armstrong number")
+# # arm_strong(153)
+
+
+sum=0
+for i in range(0,101):
+    if i%2==0:
+        sum+=i
+print("The sum of even numbers from 1 to 100 is:", sum)     
+
+        
+    
+# total_sum = 0
+# for num in range(1, 101):
+#     if num % 2 == 0:    
+#         total_sum += num
+# print("The sum of even numbers from 1 to 100 is:", total_sum)
+
+
+    
+    

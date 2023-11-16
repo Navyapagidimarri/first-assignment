@@ -70,15 +70,13 @@
 
 
 #stars with patterns
-#n=5
-#for i in range(n):
-#for j in range(n):
-#   print('*',end='  ')
-#    #if we give space between semicolon is shows sqaure
-#   #i[0],j[0]--- i[1],j[1] --i[2],j[2] --i[3],j[3]-- i[4],j[4]-- i[5],j[5]
-#   # * * * * *
+n=5
+for i in range(n):
+  for j in range(i):
+    print("*",end=" ")
+  print()
+  
 
-#print()
 
 
 #vote 

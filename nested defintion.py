@@ -1,4 +1,3 @@
-
 #nested defintion function is there for us what we call frst that will print before here we given multiplication frst
 # def addition_sample(a,b):
 #    def multiplication_sample(c,d):
@@ -6,6 +5,8 @@
 #    multiplication_sample(8,9)
 #    print(a+b)
 # addition_sample(3,4)
+
+
 
 
 #testing with 2 loops 
