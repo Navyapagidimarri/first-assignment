@@ -1,8 +1,8 @@
 
 #even
-#a=int(input("enter a number:"))
-#n=1
-#while(n<=a):
+# a=int(input("enter a number:"))
+# n=1
+# while(n<=a):
 #    if(n%2==0):
 #        print(n)
 #    n+=1
@@ -45,8 +45,8 @@
 
 
 #rectangle patterns with numbers
-#rows = int(input('Enter the number of rows'))
-#for i in range(rows):
+# rows = int(input('Enter the number of rows'))
+# for i in range(rows):
 #   # nested loop
 #   for j in range(i):
 #       # display number
@@ -58,23 +58,21 @@
 
 
 #square
-#length=int(input("enter lenth:"))
-#breadth=int(input("enter breadth:"))
-#measurements of square is length == breadth
-#if (length==breadth):
-
-#
+# length=int(input("enter lenth:"))
+# breadth=int(input("enter breadth:"))
+# #measurements of square is length == breadth
+# if (length==breadth):
 #    print("its is a square")
-#else:
+# else:
 #   print("its not a square")
 
 
 #stars with patterns
-n=5
-for i in range(n):
-  for j in range(i):
-    print("*",end=" ")
-  print()
+# n=5
+# for i in range(n):
+#   for j in range(i):
+#     print("*",end=" ")
+#   print()
   
 
 

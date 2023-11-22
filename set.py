@@ -41,6 +41,7 @@
 # s3=s1.difference(s2)
 # print(s3)
 
+
 #intersection
 # s1=eval(input("enter elements range"))
 # s2=eval(input("eenter elements range"))
@@ -54,6 +55,7 @@
 #     s4.add(item)
 # s5=s3.intersection(s4)
 # print(s5)
+
 
 
 # symmetric

@@ -48,11 +48,11 @@
 
 
 #unpacking and packing
-# colors=("blue","green","red")
-# (cloud,grapes,apple)=colors
-# print(cloud)
-# print(grapes)
-# print(apple)
+colors=("blue","green","red")
+(cloud,grapes,apple)=colors
+print(cloud)
+print(grapes)
+print(apple)
 
 
 

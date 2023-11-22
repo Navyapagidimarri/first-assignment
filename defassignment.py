@@ -76,6 +76,4 @@
 #         print(squares_list)
 # print_squares()
 
-
-
-
+    

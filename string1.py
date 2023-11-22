@@ -20,7 +20,6 @@
 #print(i[10])
 
 
-
 #concatenaton adding the string
 #Example1
 #i="navya"
@@ -222,9 +221,9 @@ print(s1)
 
 
 #repeated remove
-# mylist = ["navya", "latha", "vaniitha", "kamala", "navya","navya"]
-# mylist = list(dict.fromkeys(mylist))
-# print(mylist)
+mylist = ["navya", "latha", "vaniitha", "kamala", "navya","navya"]
+mylist = list(dict.fromkeys(mylist))
+print(mylist)
 
 
 

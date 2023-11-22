@@ -25,12 +25,12 @@
 
 
 #3.Write a Python program to iterate over dictionaries using for loops
-# d={}
-# for k in range(0,5):
-#     key=input("enter keys")
-#     value=input("enter values")
-#     d[key]=value
-# print(d)
+d={}
+for k in range(0,5):
+    key=input("enter keys")
+    value=input("enter values")
+    d[key]=value
+print(d)
 
 
 

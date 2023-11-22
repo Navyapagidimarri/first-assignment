@@ -9,10 +9,13 @@
 # l=i+j+k
 # print(l)
 
+
+
 #slicing --s[start:stop:step]
 # i="navya working in marolix"
 # print(i[17:23+1])
 # print(i[::-1])
+
 
 
 #split() #it will be in the form of list
