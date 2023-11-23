@@ -91,13 +91,97 @@
 
 
 # Python program to print even length words in a string
-def even_words(n):
-    new_string=n.split(' ')
-    print(new_string)
-    for i in new_string:
-       if  (len(i))%2==0:
-        print(i)
-n=input("enter word : ")
-even_words(n)
+# def even_words(n):
+#     new_string=n.split(' ')
+#     print(new_string)
+#     for i in new_string:
+#        if  (len(i))%2==0:
+#         print(i)
+# n=input("enter word : ")
+# even_words(n)
+
+
+#typecas
+# a=101
+# print(a)
+
+
+# a=int(786.4)
+# print(a)
+#here am using float value assigned to interger it leaves after decimal it prints only before decimal value
+
+
+
+#b=int(True)
+#print(b)
+#here am using boolean vale to int then it gives 1 for true and 0 for false automatically
+
+
+# c=int(1+3j)
+# print(c)
+#TypeError: int() argument must be a string, a bytes-like object or a real number, not 'complex'
+
+
+# c=int("marolix")
+# print(c)
+#ValueError: invalid literal for int() with base 10: 'marolix'
+
+
+#Write a program in Python to check whether an integer is Armstrong number or not.
+# def armstrong(abc):
+#  number=str(abc)
+#  length=len(number)
+#  sum_of_digits=0
+#  for i in number:
+#     sum_of_digits=int(i)**3+sum_of_digits
+#  if abc == sum_of_digits:
+#         print("this is armstrong number :")
+#  else:
+#         print("this is not armstrong number")
+# armstrong(153)
+
+
+# create a table with while loop and for loop
+# l=int(input("enter table name"))
+# i=1
+# while(i<11):
+#     print(l,'X',i ,'=',l*i)
+#     i=i+1
+
+
+#Python Program to check a given number is even or odd.
+# def even_odd(n):
+#     for i in n:
+#         if i % 2 == 0:
+#             print(f"{i} is an even number.")
+#         else:
+#             print(f"{i} is an odd number.")
+
+# n = [1, 2, 3, 4, 5, 6, 7, 8]
+# even_odd(n)
+
+
+
+
+#write a Python program to calculate the sum of  numbers.
+# def sum_function(x):
+#     if x==1:
+#         return 1
+#     else:
+#         return x+sum_function(x-1)
+# num=5
+# answer=sum_function(num)
+# print(answer)
+
+
+
+#write a prog to find sqaure 
+# def square(base,exponent):
+#     result=base**exponent
+#     if exponent ==0:
+#         print (base)
+#     else:
+#       print(result)
+# square(2,3)
 
 
