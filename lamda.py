@@ -5,11 +5,13 @@
 
 
 
+
 #power 
 # def lambda_function2(n):
 #   return lambda x:x**n
 # power=lambda_function2(2)
 # print(power(10))
+
 
 
 
@@ -21,3 +23,21 @@
 # result = lambda_function3()
 # print(result)
 
+
+
+
+# l=[1,1,2,2,3,3]
+# new_list =[]
+# for i in l:
+#    if i not in new_list:
+#        new_list.append(i)
+# print(new_list)
+
+
+s="madam"
+t=''.join(reversed(s))
+if s == t:
+    print("it is a  polindrome :")
+else:
+    print("its not polindrome")
+    

@@ -185,3 +185,167 @@
 # square(2,3)
 
 
+#Python – Sum of tuple elements
+# def tuple(n):
+#     tuple_sum=sum(n)
+#     print(tuple_sum)
+# n=(10,20,30,40)
+# tuple(n)
+
+
+
+# def tuple(n):
+#     sum=0
+#     for i in n:
+#         sum=sum+i
+#     print(sum)
+# n=(10,20,30,40)
+# tuple(n)
+
+        
+
+#Remove items from Set
+# def sett(n):
+#  n_copy = n.copy()
+#  for i in n_copy:
+#         n.remove(i)
+#         print(i)
+# n={1,2,3,4,5}
+# sett(n)
+# print(n)
+
+
+
+#factorial
+# def fact(n):
+#     if n==1:
+#         return 1
+#     else:
+#         factorial=n*fact(n-1)
+#         return  factorial
+# number=int(input("enter number :"))
+# result=fact(number)
+# print(f"The factorial of {number} is: {result}")
+
+
+
+l = [1, 2, 2, 3, 4, 5, 5, 6, 6, 7, 7]
+count_dict = {}
+for i in l:
+    if i in count_dict:
+        count_dict[i] += 1
+    else:
+        count_dict[i] = 1
+max_frequency = max(count_dict.values())
+max_elements = [key for key, value in count_dict.items() if value == max_frequency]
+print(f"The maximum frequency is: {max_frequency}")
+print(f"The element(s) with the maximum frequency is/are: {max_elements}")
+
+
+
+
+# s="Am navya"
+# s1=""
+# for i in s:
+#     if i.isupper():
+#         i=i.lower()
+#     s1=s1+i
+# print(s1)
+
+
+
+# s=eval(input("enter word"))
+# i=eval(input("enter index number :"))
+# j=eval(input("enter second index number :"))
+# if len(s)>=2:
+#     s=list(s)
+#     s[i] ,s[j] = s[j],s[i]
+#     swappedstring=''.join(s)
+#     print(swappedstring)
+
+
+
+
+
+# def add(n):
+#     count=0
+#     for i in n:
+#         count+=i
+#     return count
+# n=[1,2,3,4,5]
+# result=add(n)
+# print(result)
+
+
+# def add(n):
+#     print(sum(n))
+# n=[1,2,3,4,5]
+# add(n)
+
+
+# vowels=["A","E","I","O","U","a","e","i","o","u"]
+# n="navya working in marolix"
+# for vowel in vowels:
+#    n= n.replace(vowel,'')
+# print(n)
+
+
+
+# n="navya working in marolix"
+# for i in n:
+#     if n.islower():
+#         v=n.upper()
+# print(v)
+
+
+
+#Write a program in Python to find sum of digits of a number using recursion?
+# def test(n):
+#     if len(n)==0:
+#      return 0
+#     else:
+#         count=n[0]+test(n[1:])
+#     return count
+# n=[1,2,3,4,5]
+# result=test(n)
+# print(result)
+
+
+
+# def panagram(n):
+#     k=set(n)
+#     if k.isalpha():
+#         new=k.lower()
+#     print(new)
+#     if len(k)==26:
+#         print("it is anagram")
+#     else:
+#         print("it is not an angram")
+    
+# n="navyaworkingin"
+# panagram(n)
+
+
+# from functools import reduce
+# l=[1,2,3,4,5]
+# new=reduce(lambda x,y:x**y,l)
+# print(new)
+
+
+
+#Convert Integer Matrix to String Matrix
+S=[[1,2,3],[4,5,6],[7,8,9]]
+t=[]
+for i in S:
+    k=list(map(str,i))
+    print(k)
+    
+
+
+     
+ 
+   
+        
+
+
+

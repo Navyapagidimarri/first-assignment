@@ -96,6 +96,7 @@
 # # arm_strong(153)
 
 
+
 # sum=0
 # for i in range(0,101):
 #     if i%2==0:
@@ -111,9 +112,7 @@
 
     
 
-s=input("enter polindrome :")
-t=s[::-1]
-print(t)
+
 
 
 

@@ -31,3 +31,8 @@
 #    print(a+b)#here i used addition printing frst so printed sum
 # addition_sample(3,4)
 
+
+
+def sys(a,b):
+    print(a^b)
+sys(1,2)
