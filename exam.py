@@ -216,12 +216,14 @@
 # trail(sorted)
 
 
+
 #Python program to find the sum of all items in a dictionary
 # d={"navya":20000,"kavya":30000,"mamatha":40000}
 # sum=0
 # for i in d.values():
 #     sum=sum+i
 # print(sum)
+
 
 
 #Python program to find the size of a Dictionary
@@ -244,6 +246,8 @@
 
 
 
+
+
 # details={"navya":"abhi@1234"}
 # key =input("enter username")
 # value=input("enter password:")
@@ -253,13 +257,69 @@
 #         print("not valid")
 
 
+
+
 # d={"navya":20000,"kavya":30000,"mamatha":40000}
 # e={"kamala":50000,"vanitha":60000}
 # f=d|e
 # print(f)
 
 
+
+
+#Python – Remove duplicate values across Dictionary Values
+# d={"navya":20000,"kavya":30000,"mamatha":40000,"bhavya":20000}
+# print(list(set(d.values())))
+
+
+
+#Python | Ways to remove a key from dictionary
+# d={"navya":20000,"kavya":30000,"mamatha":40000}
+# del d["navya"]
+# print(d)
+
+
+# d={"navya":20000,"kavya":30000,"mamatha":40000}
+# print(d.popitem("navya"))
+
+
+
+# d={"navya":20000,"kavya":30000,"mamatha":40000}
+# print(d.clear())
+# print(d)
+
+
+
+#Python – Replace words from Dictionary
+# d={"navya":20000,"kavya":30000,"mamatha":40000}
+# d["kavya"]=50000
+# print(d)
+
+
+
+
+#Python program to find the sum of all items in a dictionary
+# d={"navya":20000,"kavya":30000,"mamatha":40000}
+# count=0
+# for i,j in d.items():
+#     count=count+j
+# print(count)
+
+
+
+#Python – Replace words from Dictionary\
 d={"navya":20000,"kavya":30000,"mamatha":40000}
-e={"kamala":50000,"vanitha":60000}
-f=update(e)
-print(f)
+for i,j in d.items():
+    d["navya"]=30000
+print(d)
+
+
+
+
+
+
+
+
+
+
+

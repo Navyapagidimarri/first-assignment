@@ -38,5 +38,5 @@ class caluclator:
                 break
            else:
                 print("Invalid input. Please try again.")
-e1=caluclator(10,20)
+e1=caluclator(100000,10000000)
 e1.m1()
